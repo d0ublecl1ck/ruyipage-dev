@@ -2,7 +2,7 @@
 
 RuyiPage Python 自动化开发 skill，面向 Codex / Claude Code 这类 AI coding agents，聚焦 Firefox 路线、WebDriver BiDi、已有浏览器接管、网络拦截、user context、多账号隔离和高风控场景调试。
 
-感谢如意大佬的开源分享，也感谢 RuyiPage 项目对 Firefox 自动化、BiDi 能力和高风控场景实践的持续投入。
+感谢[如意大佬](https://github.com/LoseNine)的开源分享，也感谢 [RuyiPage 项目](https://github.com/LoseNine/ruyipage) 对 Firefox 自动化、BiDi 能力和高风控场景实践的持续投入。
 
 ## Installation
 
