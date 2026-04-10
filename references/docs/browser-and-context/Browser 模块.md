@@ -1,30 +1,3 @@
-[ 小肩膀教育 ](https://0xshoulderlab.site/)
-[首页](https://0xshoulderlab.site/) [实战课程](https://0xshoulderlab.site/courses) [公告](https://0xshoulderlab.site/news) [代理IP和爬虫数据](https://0xshoulderlab.site/proxy) [自动化框架](https://0xshoulderlab.site/automation) [招聘内推](https://0xshoulderlab.site/jobs) [指纹检测](https://0xshoulderlab.site/fingerprint) [关于我们](https://0xshoulderlab.site/about) [联系我们](https://0xshoulderlab.site/contact) [立即咨询](https://0xshoulderlab.site/contact)
-[首页](https://0xshoulderlab.site/) [实战课程](https://0xshoulderlab.site/courses) [公告](https://0xshoulderlab.site/news) [代理IP和爬虫数据](https://0xshoulderlab.site/proxy) [自动化框架](https://0xshoulderlab.site/automation) [招聘内推](https://0xshoulderlab.site/jobs) [指纹检测](https://0xshoulderlab.site/fingerprint) [关于我们](https://0xshoulderlab.site/about) [联系我们](https://0xshoulderlab.site/contact) [立即咨询](https://0xshoulderlab.site/contact)
-概览
-[文档首页](https://0xshoulderlab.site/automation) [框架概览](https://0xshoulderlab.site/automation/overview)
-快速开始
-[安装](https://0xshoulderlab.site/automation/installation) [快速上手](https://0xshoulderlab.site/automation/quickstart)
-基础能力
-[页面对象](https://0xshoulderlab.site/automation/page) [页面导航](https://0xshoulderlab.site/automation/navigation) [等待机制](https://0xshoulderlab.site/automation/waits) [元素定位](https://0xshoulderlab.site/automation/elements) [选择器](https://0xshoulderlab.site/automation/selectors) [表单能力](https://0xshoulderlab.site/automation/forms)
-输入与交互
-[动作链](https://0xshoulderlab.site/automation/actions) [拖拽](https://0xshoulderlab.site/automation/drag-drop) [滚动](https://0xshoulderlab.site/automation/scrolling) [触摸输入](https://0xshoulderlab.site/automation/touch) [isTrusted](https://0xshoulderlab.site/automation/is-trusted)
-页面结构
-[iframe](https://0xshoulderlab.site/automation/iframe) [Shadow DOM](https://0xshoulderlab.site/automation/shadow-dom) [复杂边界](https://0xshoulderlab.site/automation/page-structure/complex-boundaries)
-脚本与调试
-[JavaScript](https://0xshoulderlab.site/automation/javascript) [Script 模块](https://0xshoulderlab.site/automation/script) [Preload Script](https://0xshoulderlab.site/automation/preload-scripts) [Console](https://0xshoulderlab.site/automation/console)
-浏览器能力
-[Cookies](https://0xshoulderlab.site/automation/cookies) [标签页](https://0xshoulderlab.site/automation/tabs) [窗口](https://0xshoulderlab.site/automation/window) [Browser 模块](https://0xshoulderlab.site/automation/browser) [User Context](https://0xshoulderlab.site/automation/user-contexts) [Browsing Context](https://0xshoulderlab.site/automation/browsing-context) [下载](https://0xshoulderlab.site/automation/downloads) [截图](https://0xshoulderlab.site/automation/screenshots) [PDF](https://0xshoulderlab.site/automation/pdf) [弹窗](https://0xshoulderlab.site/automation/prompts) [WebExtension](https://0xshoulderlab.site/automation/extensions)
-网络与事件
-[网络能力](https://0xshoulderlab.site/automation/network) [请求拦截](https://0xshoulderlab.site/automation/intercept) [网络事件](https://0xshoulderlab.site/automation/network-events) [导航事件](https://0xshoulderlab.site/automation/navigation-events) [Data Collector](https://0xshoulderlab.site/automation/data-collector) [认证](https://0xshoulderlab.site/automation/auth)
-仿真与高风控
-[Emulation](https://0xshoulderlab.site/automation/emulation) [移动端](https://0xshoulderlab.site/automation/mobile) [高风控场景](https://0xshoulderlab.site/automation/anti-bot)
-规范与工具
-[BiDi 对照](https://0xshoulderlab.site/automation/bidi) [测试工具](https://0xshoulderlab.site/automation/testing)
-示例中心
-[全部示例](https://0xshoulderlab.site/automation/examples)
-[Automation](https://0xshoulderlab.site/automation) / Browser 模块
-RuyiPage Docs
 #  RuyiPage Browser 模块
 browser_tools 和浏览器级控制能力与页面对象配合，适合更高级的自动化调试。
 ## API 与参数说明
@@ -1279,29 +1252,3 @@ if __name__ == "__main__":
     test_tabs()
 
 ```
-
-#### 小肩膀教育
-专注逆向工程与安全开发，实战驱动教学，帮助有志向的年轻人通过努力学习获得体面工作。
-#### 课程方向
-  * [网络爬虫](https://0xshoulderlab.site/courses?category=crawler)
-  * [安卓逆向](https://0xshoulderlab.site/courses?category=android-reverse)
-  * [iOS逆向](https://0xshoulderlab.site/courses?category=ios-reverse)
-  * [AI逆向](https://0xshoulderlab.site/courses?category=ai-reverse)
-  * [浏览器内核开发](https://0xshoulderlab.site/courses?category=browser-kernel)
-  * [自动化框架](https://0xshoulderlab.site/automation)
-
-
-#### 快速链接
-  * [关于我们](https://0xshoulderlab.site/about)
-  * [联系我们](https://0xshoulderlab.site/contact)
-  * [B站·小肩膀教育](https://space.bilibili.com/534838862)
-  * [B站·如意浏览器开发](https://space.bilibili.com/172381477)
-
-
-#### 联系方式
-  * 微信：xiaojianbang8888
-  * 微信：Charleval
-  * 公众号：非攻Code / 如意私塾
-
-
-© 2016-2026 小肩膀教育 保留所有权利 · 十年专注逆向安全培训 

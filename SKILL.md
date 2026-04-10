@@ -9,7 +9,9 @@ description: Professional RuyiPage (Python) Firefox automation workflow and trou
 
 Use this skill to build reliable RuyiPage automation in Python by following a consistent workflow and consulting the bundled project materials in `references/`.
 
-Read `references/project-readme.md` first for product positioning, installation, launch patterns, browser takeover, and Firefox-specific assumptions. Read `references/index.md` next when you need the local doc map or a quick path to the right topic.
+Read `references/project-readme.md` first. Treat it as the entry guide, capability map, and onboarding route for the framework, not as a shallow repository homepage. It already covers product positioning, installation, launch patterns, browser takeover, and Firefox-specific assumptions at a level that is directly useful for implementation work.
+
+Read `references/index.md` next when you need the local doc map or a quick path to the right topic. Use the topic docs after the README has established the right mental model.
 
 ## Preferences
 
@@ -23,6 +25,7 @@ Read `references/project-readme.md` first for product positioning, installation,
 
 ### 1) Clarify the target flow and execution model
 
+- Start with `references/project-readme.md` unless the task is already narrowly scoped to one documented API.
 - Decide whether the task is a fresh browser launch, takeover of an existing browser, or multi-account automation inside one browser.
 - Identify whether the script depends on Firefox-specific behavior, BiDi capabilities, `isTrusted` actions, or fingerprint-browser integration.
 - Treat anti-bot, login, and account-state assumptions as first-class design inputs before writing code.
@@ -123,6 +126,8 @@ Read:
 - Search the bundled docs by keyword:
   - `rg -n -S "<keyword>" references/docs`
   - For case-insensitive English terms: `rg -n -i "<keyword>" references/docs`
+- Search the project README first when the task is about setup, startup, attach flows, or overall framework intent:
+  - `rg -n -i "launch|attach|browser_path|user_dir|fingerprint|bidi|isTrusted" references/project-readme.md`
 - Search for a concrete API or class name:
   - `rg -n -i "\\bFirefoxPage\\b|\\bFirefoxOptions\\b|\\blaunch\\b" references`
   - `rg -n -i "\\buser context\\b|\\bbidi\\b|\\bisTrusted\\b" references`
